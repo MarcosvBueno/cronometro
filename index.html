@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Cronômetro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Trispace:wght@100&family=Volkhov:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./assets/script.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Cronômetro</h1>
+      <h2>feito em javascript</h2>
+      <div id="cronometro">
+        <p>
+          <span id="minutos">00</span>:<span id="segundos">00</span
+          ><span id="ponto">:</span><span id="milesimos">00</span>
+        </p>
+      </div>
+      <div id="buttons">
+        <button id="button-start">Start</button>
+        <button id="button-stop">Stop</button>
+        <button id="button-reset">Reset</button>
+        <button id="button-add">Set Time</button>
+        <button id="button-remove">Remove All</button>
+      </div>
+    </div>
+  </body>
+</html>

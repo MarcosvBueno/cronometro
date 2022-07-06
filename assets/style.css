@@ -1,0 +1,76 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgb(177, 225, 255);
+  text-align: center;
+  font-family: 'Trispace', sans-serif;
+  overflow-x: hidden;
+  margin: auto;
+}
+
+.wrapper {
+  margin: auto;
+  width: 800px;
+  color: black;
+}
+
+h2 {
+  padding-bottom: 30px;
+}
+
+button {
+  font-size: 18px;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  border-radius: 5px;
+  border: white;
+  background-color: aliceblue;
+}
+
+button:hover {
+  background-color: #3ea4c4;
+  color: white;
+  transition: all 0.3s;
+}
+
+#minutos,
+#segundos,
+#milesimos {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#ponto {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 780px) {
+  body {
+    overflow-x: hidden;
+    margin: auto;
+  }
+
+  button {
+    font-size: 28px;
+    padding: 28px 16px;
+    width: 280px;
+    margin: 10px;
+    border-radius: 5px;
+    border: white;
+    background-color: aliceblue;
+  }
+
+  .wrapper {
+    padding-top: 10%;
+    margin: auto;
+    width: 100vw;
+    color: black;
+  }
+}
